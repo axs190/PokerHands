@@ -1,0 +1,9 @@
+class PokerHands
+
+  def outputsArray
+    card_Num=Array(2..14)
+    puts "#{card_Num}";
+  end
+end
+Hands=PokerHands.new
+Hands.outputsArray
